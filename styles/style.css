@@ -386,13 +386,13 @@ section {
 }
 
 .portfolios .portfolio-item .hover-items h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
 
 .portfolios .portfolio-item .hover-items h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
 }
@@ -520,8 +520,24 @@ section {
   border: none;
   background-color: var(--color-grey-5);
   width: 100%;
-  color: var(--color-grey-1);
+  color: var(--color-grey-6);
   resize: none;
+}
+
+.contact-content-con .right-contact .input-control ::-webkit-input-placeholder {
+  color: var(--color-grey-1);
+}
+
+.contact-content-con .right-contact .input-control :-ms-input-placeholder {
+  color: var(--color-grey-1);
+}
+
+.contact-content-con .right-contact .input-control ::-ms-input-placeholder {
+  color: var(--color-grey-1);
+}
+
+.contact-content-con .right-contact .input-control ::placeholder {
+  color: var(--color-grey-1);
 }
 
 .contact-content-con .right-contact .i-c-2 {

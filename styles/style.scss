@@ -284,12 +284,12 @@ section {
             transform: scale(0);
             transition: all .4s ease-in-out;
             h3 {
-                font-size: 1.5rem;
+                font-size: 1rem;
                 color: var(--color-white);
                 margin-bottom: 1.5rem;
             }
             h2 {
-                font-size: 2rem;
+                font-size: 1.7rem;
                 color: var(--color-white);
                 margin-bottom: 1.5rem;
             }
@@ -380,8 +380,11 @@ section {
                 border: none;
                 background-color: var(--color-grey-5);
                 width: 100%;
-                color: var(--color-grey-1);
+                color: var(--color-grey-6);
                 resize: none;
+            }
+            ::placeholder {
+                color: var(--color-grey-1);
             }
         }
         .i-c-2 {
